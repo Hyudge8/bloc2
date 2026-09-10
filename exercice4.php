@@ -9,7 +9,7 @@ $produits = [
 
 
 foreach ($produits as $produit => $prix) {
-    echo $produit . " : " . $prix . " €<br>";
+    echo $produit . " : " . $prix . " € \n";
 }
 
 echo "<hr>";
@@ -17,7 +17,7 @@ echo "<hr>";
 
 foreach ($produits as $produit => $prix) {
     if ($prix > 50) {
-        echo $produit . " : " . $prix . " €<br>";
+        echo $produit . " : " . $prix . " € \n";
     }
 }
 
