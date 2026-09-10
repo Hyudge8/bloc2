@@ -7,7 +7,6 @@ $produits = [
     "Webcam" => 79.90
 ];
 
-// 1. Afficher tous les produits et leur prix
 
 foreach ($produits as $produit => $prix) {
     echo $produit . " : " . $prix . " €<br>";
@@ -15,7 +14,6 @@ foreach ($produits as $produit => $prix) {
 
 echo "<hr>";
 
-// 2. Afficher uniquement les produits coûtant plus de 50 €
 
 foreach ($produits as $produit => $prix) {
     if ($prix > 50) {
@@ -25,7 +23,6 @@ foreach ($produits as $produit => $prix) {
 
 echo "<hr>";
 
-// 3. Compter le nombre de produits
 
 $nombreProduits = 0;
 
