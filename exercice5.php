@@ -12,7 +12,7 @@ function calculerRemise(float $prix, float $remise): float
 
 echo calculerTTC(100);
 
-echo "<br>";
+echo "</br>";
 
 echo calculerRemise(200, 0.10);
 
